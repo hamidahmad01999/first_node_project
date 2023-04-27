@@ -1,0 +1,1042 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  color: black;
+  width: 100%;
+}
+.header {
+  margin-bottom: 150px;
+}
+#back {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 95vh;
+}
+.navbar {
+  display: flex;
+  font-size: 24px;
+  padding: 15px 40px;
+  justify-content: space-around;
+  color: white;
+}
+.right_navbar ul {
+  display: flex;
+}
+.right_navbar ul li {
+  padding: 0px 17px;
+  list-style: none;
+  display: flex;
+}
+.right_navbar ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 1s;
+  font-family: "Poppins";
+}
+.right_navbar ul li a:hover {
+  color: black;
+  text-shadow: 1px 1px white;
+  font-weight: bold;
+}
+#nav_btn {
+  font-family: "Poppins";
+  font-size: 22px;
+  background: none;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 4px 10px;
+  margin-bottom: 2px;
+  background: rgba(0, 0, 0, 0.5);
+  transition: 1s;
+  /* padding: 7px 10px; */
+}
+#nav_btn:hover {
+  color: black;
+  background: none;
+  cursor: pointer;
+  box-shadow: 0 0 70px 20px rgba(255, 255, 255, 0.5);
+}
+/* ------------------------------------------------ */
+
+.banner_area {
+  /* border: 1px solid black; */
+  /* width: 100%; */
+  display: flex;
+  padding: 0px 50px;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+.images_area {
+  flex-basis: 50%;
+  margin-bottom: 35px;
+  padding-left: 80px;
+}
+#girl {
+  width: 75%;
+}
+#ellip {
+  position: absolute;
+  top: 340px;
+  left: 110px;
+  width: 27%;
+}
+#ellip2 {
+  position: absolute;
+  top: 70px;
+  left: 210px;
+  rotate: 180deg;
+  width: 27%;
+}
+#ellip3 {
+  position: absolute;
+  top: 340px;
+  left: 0px;
+}
+.text_area {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child_text_area {
+  /* border: 1px solid black; */
+  height: 50%;
+}
+.child_text_area h1 {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 15px;
+}
+.child_text_area p {
+  color: white;
+  text-align: left;
+  font-size: 17px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+.child_text_btn {
+  margin-top: 7px;
+  margin-left: 10px;
+  background-color: #a181ff;
+  color: white;
+  font-size: 20px;
+  padding: 7px 25px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 1s;
+}
+.child_text_btn:hover {
+  background-color: #656270;
+  border: 1px solid white;
+  box-shadow: 0 0 70px 20px rgba(255, 255, 255, 0.5);
+}
+#text_ellip {
+  width: 28%;
+  position: absolute;
+  top: 330px;
+  right: 90px;
+  rotate: -52deg;
+}
+#text_ellip2 {
+  width: 8%;
+  position: absolute;
+  top: 500px;
+  right: 0px;
+  rotate: 180deg;
+}
+.features {
+  height: 300px;
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  margin: 0px auto;
+  /* margin-bottom: -200px; */
+  position: absolute;
+  top: 565px;
+  left: 20%;
+}
+.features_data {
+  border: 2px solid #a181ff;
+  background-color: white;
+  width: 110px;
+  height: 130px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+  /* cursor: pointer; */
+}
+.features_data:hover {
+  box-shadow: 0px 0px 25px 5px #0a396e;
+  transform: translateY(-5px);
+}
+.features_data_img {
+  width: 50px;
+}
+.features_data_img img {
+  width: 100%;
+}
+.features_data p {
+  margin-top: 5px;
+}
+
+/* ------------------------------------------ */
+/* Courses section is going to start. */
+
+.courses {
+  width: 85%;
+  margin: 0px auto;
+  margin-bottom: 100px;
+}
+.popular_courses {
+  text-align: center;
+}
+#course_line {
+  margin-bottom: 25px;
+  display: inline-block;
+  width: 700px;
+  height: 3px;
+  background-color: #7446fd;
+  box-shadow: 0 0 20px 1px rgb(109, 80, 141);
+  border-radius: 7px;
+  margin-top: 10px;
+}
+.popular_courses h1 {
+  font-size: 35px;
+  color: #a181ff;
+}
+.popular_courses p {
+  margin: 10px 0px;
+  font-size: 19px;
+  text-justify: initial;
+}
+.get_courses {
+  width: 100%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.get_course {
+  flex-basis: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  border-radius: 25px;
+  padding: 30px 3px;
+}
+.get_course:hover {
+  box-shadow: 0px 0px 25px 5px #4d3986;
+  transform: translateY(-5px);
+  background: rgb(119, 151, 219);
+}
+.get_course:hover h2 {
+  color: white;
+}
+.get_course:hover p {
+  color: white;
+}
+.course_data_heading h2 {
+  color: #a181ff;
+  font-size: 23px;
+}
+.course_data_para {
+  width: 75%;
+  font-size: 17px;
+}
+.course_img img {
+  cursor: pointer;
+  width: 100%;
+  width: 300px;
+  height: 300px;
+}
+.course_det {
+  width: 80%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.course_det_left {
+  display: flex;
+  flex-basis: 50%;
+  align-items: center;
+  width: 50px;
+}
+.course_det_left img {
+  cursor: pointer;
+}
+.course_det_right {
+  flex-basis: 50%;
+  text-align: right;
+}
+.course_det_right p {
+  float: right;
+  margin-right: 7px;
+  border-radius: 20%;
+  width: 30px;
+  background-color: blue;
+  color: white;
+  padding: 3px 6px;
+  cursor: pointer;
+}
+.course_det_left img {
+  width: 20px;
+}
+.course_data_para {
+  margin: 5px 0px;
+}
+.course_det_left p {
+  padding-left: 5px;
+}
+
+/* ----------------------------------------------------------- */
+/* Now work is going to start on third section benefits */
+.benefits {
+  display: flex;
+  background-color: #7446fd;
+  height: 90vh;
+  margin-bottom: 100px;
+  /* margin-top: 100px; */
+  flex-wrap: wrap;
+}
+.benefits_left {
+  flex-basis: 50%;
+}
+/* .st{
+    width: 200px;
+} */
+.st1 {
+  position: relative;
+  top: 20px;
+  left: 250px;
+  width: 200px;
+  z-index: 7;
+}
+.st2 {
+  position: relative;
+  top: 110px;
+  left: 170px;
+  width: 170px;
+  z-index: 2;
+}
+.st3 {
+  position: relative;
+  top: 230px;
+  left: 60px;
+  width: 180px;
+  z-index: 3;
+}
+.st4 {
+  position: relative;
+  top: 160px;
+  left: 300px;
+  width: 230px;
+  z-index: 2;
+}
+.st5 {
+  position: relative;
+  top: 200px;
+  left: -105px;
+  width: 210px;
+  z-index: 4;
+}
+.st6 {
+  position: relative;
+  top: 40px;
+  left: -420px;
+  width: 205px;
+  z-index: 1;
+}
+.st7 {
+  position: relative;
+  top: -370px;
+  left: 80px;
+  width: 230px;
+  z-index: 2;
+}
+
+.benefits_right {
+  /* border: 1px solid black; */
+  flex-basis: 50%;
+}
+.benefits_right_head h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.benefits_right_data {
+  width: 80%;
+  height: 80%;
+}
+
+.benefits_right_det_data {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.benefits_data_img {
+  border-radius: 20px;
+  flex-basis: 20%;
+}
+.benefits_data_img img {
+  width: 70px;
+  height: 60px;
+  width: 100%;
+  filter: brightness(100);
+}
+.benefits_data_txt {
+  flex-basis: 80%;
+}
+.benefits_right_data {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.benefits_right_det {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.benefits_right_det_data {
+  /* border: 1px solid black; */
+  margin: 30px 0px;
+}
+.benefits_data_txt p {
+  color: white;
+  font-size: 19px;
+}
+#benefits_left_elp {
+  position: relative;
+  width: 12%;
+  top: 70px;
+  left: -240px;
+  bottom: 20px;
+  z-index: 5;
+  rotate: -35deg;
+}
+#benefits_right_elp {
+  position: relative;
+  display: block;
+  width: 12%;
+  left: 631px;
+  top: -30px;
+  rotate: 210deg;
+}
+#benefits_line {
+  margin-bottom: 25px;
+  display: inline-block;
+  width: 500px;
+  height: 3px;
+  background-color: grey;
+  box-shadow: 0 0 20px 1px rgb(193, 183, 203);
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+/* -------------------------------------------------- */
+/* Now going to start work on 4th section instructor */
+
+.instructor {
+  margin: 100px 0px;
+  display: flex;
+  height: 80vh;
+  flex-wrap: wrap;
+}
+.instructor_left {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instructor_left_data {
+  height: 50%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.instructor_left_heading {
+  margin-bottom: 15px;
+  color: #7446fd;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.instructor_left_para p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.instructor_left_btn button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background: none;
+  border-radius: 7px;
+  border: 2px solid #a181ff;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  transition: 1s;
+  margin-top: 7px;
+}
+.instructor_left_btn button a {
+  text-decoration: none;
+  transition: 1s;
+}
+.instructor_left_btn button span {
+  border-radius: 7px;
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  transition: 1s;
+  background-color: #7446fd;
+  z-index: -1;
+}
+.instructor_left_btn button:hover {
+  box-shadow: 0px 0px 25px 5px #7446fd;
+  transform: translateY(-5px);
+}
+.instructor_left_btn button:hover a {
+  color: white;
+}
+.instructor_left_btn button:hover span {
+  width: 100%;
+}
+.instructor_left_btn button:nth-child(2) {
+  margin-left: 12px;
+}
+.instructor_left_para p:nth-child(2) {
+  margin: 20px 0px;
+}
+.instructor_right {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.instructor_right_img {
+  width: 60%;
+}
+.instructor_right_img img {
+  width: 80%;
+  margin: 0px auto;
+  z-index: 13;
+  display: inline-block;
+}
+.instructor_circle {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: #7446fd;
+  border-radius: 50%;
+  z-index: -1;
+  right: 265px;
+  top: 285px;
+}
+#instructor_line {
+  margin-bottom: 25px;
+  display: inline-block;
+  width: 500px;
+  height: 3px;
+  background-color: #7446fd;
+  box-shadow: 0 0 20px 1px rgb(109, 80, 141);
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+/* ----------------------------------------------------------- */
+/* Going to start another section */
+/* Testimonial Section */
+
+.testimonials {
+  border: 1px solid black;
+  display: flex;
+  height: 70vh;
+  background: #7446fd;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  margin-bottom: 100px;
+}
+.testi_head h1 {
+  font-size: 50px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#testi_line {
+  margin-bottom: 25px;
+  display: inline-block;
+  width: 585px;
+  height: 3px;
+  background-color: rgb(168, 148, 148);
+  box-shadow: 0 0 20px 2px white;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+.testi_para p {
+  color: white;
+  padding-top: 10px;
+  font-size: 19px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.testi_com {
+  /* display: flex; */
+  position: relative;
+  border: 4px solid #a181ff;
+  padding: 20px 45px;
+  border-radius: 10px;
+  transition: 1s;
+  top: 80px;
+}
+.testi_com_img {
+  width: 85px;
+  position: absolute;
+  left: -45px;
+  bottom: 5px;
+}
+.testi_com:hover {
+  box-shadow: 0 0 20px 5px white;
+  transform: translateY(-5px);
+}
+.testi_com:hover #testi_line_st {
+  background-color: #4022ad;
+  box-shadow: 0 0 30px 5px rgb(237, 233, 241);
+}
+.testi_com_img img {
+  width: 100%;
+}
+.testi_com_txt {
+  color: white;
+  font-size: 17px;
+}
+.testi_com1 {
+  position: absolute;
+  top: 210px;
+  left: 45px;
+}
+.testi_com2 {
+  position: absolute;
+  top: 210px;
+  right: 45px;
+}
+.testi_img1 {
+  width: 90px;
+  position: absolute;
+  top: 100px;
+  right: 50px;
+}
+.testi_img1 img {
+  width: 100%;
+}
+.testi_img2 {
+  width: 70px;
+  position: absolute;
+  left: 120px;
+  bottom: 50px;
+}
+.testi_img2 img {
+  width: 100%;
+}
+.testi_img3 {
+  width: 100px;
+  position: absolute;
+  right: 80px;
+  bottom: 50px;
+}
+.testi_img3 img {
+  width: 100%;
+}
+.testi_img4 {
+  width: 60px;
+  position: absolute;
+  left: 80px;
+  top: 30px;
+}
+.testi_img4 img {
+  width: 100%;
+}
+#testi_line_st {
+  transition: 1s;
+  display: inline-block;
+  width: 65px;
+  height: 3px;
+  background-color: #e9e7f0;
+  box-shadow: 0 0 20px 1px rgb(237, 233, 241);
+  border-radius: 7px;
+}
+#testi_ellip {
+  position: absolute;
+  left: -55px;
+  top: 10px;
+  rotate: 30deg;
+}
+#testi_ellip2 {
+  position: absolute;
+  left: -5px;
+  bottom: 0px;
+  rotate: 330deg;
+}
+
+/* This will be last section of home page */
+/* Footer */
+.footer {
+  margin-top: 300px;
+  height: 90vh;
+  position: relative;
+}
+
+#footer_back {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  rotate: 180deg;
+  z-index: -1;
+}
+.form {
+  padding: 20px 30px;
+  border: 5px solid #a181ff;
+  background-color: rgb(48, 46, 45);
+  border-radius: 10px;
+  position: absolute;
+  left: 34%;
+  top: -150px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 20px 5px #ffff;
+}
+.form h1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+}
+#form_line {
+  margin-bottom: 25px;
+  display: inline-block;
+  width: 360px;
+  height: 3px;
+  background-color: #f3f1f8;
+  box-shadow: 0 0 20px 1px rgb(232, 225, 240);
+  border-radius: 7px;
+  /* padding-top: 10px; */
+  margin: 0px auto;
+}
+.form_item {
+  color: white;
+  margin-bottom: 10px;
+}
+.form_item label {
+  margin-bottom: 4px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.form_item input,
+.form_select {
+  font-size: 18px;
+  padding: 5px 7px;
+  border-radius: 7px;
+  outline: none;
+  width: 90%;
+}
+.form_btn {
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+.form_btn button {
+  background: none;
+  font-size: 16px;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 7px;
+  border: 2px solid white;
+  cursor: pointer;
+  position: relative;
+  transition: 1s;
+  margin-top: 10px;
+}
+.form_btn button:nth-child(1) {
+  margin-left: 30px;
+}
+.form_btn button:nth-child(2) {
+  margin-left: 30px;
+}
+.form_btn button span {
+  border-radius: 7px;
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  transition: 1s;
+  background-color: #7446fd;
+  z-index: -1;
+}
+.form_btn button:hover span {
+  width: 100%;
+}
+.form_btn button:hover {
+  box-shadow: 0px 0px 25px 5px #7446fd;
+  transform: translateY(-5px);
+}
+#form_ellip {
+  position: absolute;
+  left: 240px;
+  bottom: -10px;
+  rotate: 275deg;
+  width: 80%;
+}
+#form_ellip2 {
+  position: absolute;
+  rotate: -270deg;
+  bottom: 70px;
+  right: 370px;
+  width: 80%;
+}
+
+@media screen and (max-width: 1500px) {
+  /* .testi_com {
+    position: relative;
+    border: 4px solid #a181ff;
+    padding: 20px 45px;
+    border-radius: 10px;
+    transition: 1s;
+    top: 0px;
+  }
+  .testi_com1 {
+    position: relative;
+  }
+  .testi_com2 {
+    position: relative;
+  } */
+  
+}
+.para p{
+    width: 350px;
+}
+@media screen and (max-width: 1000px) {
+    .instructor_circle {
+        display: none;
+    }
+    .testi_com {
+        position: relative;
+        border: 4px solid #a181ff;
+        padding: 20px 45px;
+        border-radius: 10px;
+        transition: 1s;
+        top: 0px;
+    }
+    .testi_com1 {
+        position: relative;
+    }
+    .testi_com2 {
+       position: relative;
+    }
+    .instructor{
+       height: 130vh; 
+       margin-bottom: 50px;
+    }
+    .testimonials{
+        height: 100vh;
+    }
+    .form{
+        width: 80%;
+        left: 10%;
+    }
+    #form_ellip, #form_ellip2{
+        display: none;
+    }
+
+    .right_navbar {
+      display: none;
+    }
+    #instructor_line {
+      width: 90%;
+    }
+    .instructor{
+        margin-bottom: 100px;
+    }
+    .instructor_left {
+      flex-basis: 95%;
+    }
+    .instructor_right {
+      margin-top: 10px;
+      flex-basis: 80%;
+      margin-bottom: 30px;
+    }
+    .testi_com1 {
+      left: 0px;
+    }
+    .testi_com2 {
+      right: 0px;
+    }
+    .testi_img1,
+    .testi_img2,
+    .testi_img3,
+    .testi_img4 {
+      display: none;
+    }
+    #testi_ellip2 {
+      width: 7.5%;
+    }
+    #testi_ellip {
+      width: 12%;
+    }
+    #girl{
+      width: 100%;
+    }
+    .child_text_area h1{
+      font-size: 35px;
+    }
+    .para p{
+        font-size: 19px;
+        width: 270px;
+        line-height: 17px;
+    }
+    #ellip{
+        width: 20%;
+        /* display: none; */
+        top: 50%;
+        left: 13%;
+    }
+    #ellip2{
+        /* width: 20%; */
+        display: none;
+    }
+    #text_ellip{
+        top: 350px;
+        right: 30px;
+    }
+    .child_text_btn{
+        /* padding: 5px 15px; */
+        font-size: 17px;
+        border-radius: 5px;
+    }
+    .header{
+        margin-bottom: 400px;
+    }
+    #course_line{
+        width: 80%;
+    }
+    .benefits{
+        height: 85vh;
+    }
+    .benefits_right_data{
+        height: 90%;
+    }
+    .benefits_left{
+        display: none;
+    }
+    .benefits_right{
+        flex-basis: 80%;
+        width: 80%;
+        margin: 0px auto;
+    }
+    .benefits_right_det{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:850px){
+    #ellip{
+        display: none;
+    }
+}
+@media screen and (max-width: 700px) {
+    .text_area{
+        flex-basis: 100%;
+    }
+    .images_area{
+        flex-basis: 70%;
+        height: 10%;
+    }
+    .testi_head h1 {
+        margin-left: 20px;
+      font-size: 35px;
+    }
+    #testi_line {
+      width: 420px;
+      margin-left: 20px;
+    }
+    .testi_com {
+      padding: 10px 20px;
+    }
+    .form {
+      width: 80%;
+      left: 10%;
+    }
+    .testi_com_txt{
+        font-size: 12px;
+    }
+    .testi_com_img {
+        width: 45px;
+        position: absolute;
+        left: -45px;
+        bottom: 5px;
+    }
+    .banner_area{
+        background: #7446fd;
+        height: 130vh;
+    }
+    .features{
+        top: 145%;
+    }
+    .features_data{
+        width: 90px;
+    }
+    .banner_area{
+        width: 100%;
+    }
+    .features{
+        top: 110%;
+    }
+    .features_data{
+        margin: 0px 5px;
+    }
+    #girl{
+        width:200%;
+    }
+    .para p{
+        line-height: 20px;
+    }
+    .benefits{
+        height: 65vh;
+    }
+    .benefits_right_head h1{
+        font-size: 20px;
+    }
+    .benefits_data_txt p{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+}
+
+.testi_para p{
+    width: 500px;
+}
